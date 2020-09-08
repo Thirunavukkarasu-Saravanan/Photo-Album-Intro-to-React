@@ -1,0 +1,14 @@
+.banner {
+  max-width: 80%;
+
+  height: 10em;
+}
+
+.photo-entry-block {
+  margin: 2rem;
+  width: 30%;
+}
+
+.photo-img {
+  width: 80%;
+}
