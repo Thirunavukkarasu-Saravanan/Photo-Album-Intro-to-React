@@ -3,16 +3,17 @@ import "./img.css";
 
 class Album extends React.Component {
   render() {
-    const path = "{require(" + ".." + "/images/" + this.props.src + ")}";
+    const path = this.props.src;
+    let photo_name = this.props.name;
+    let photo_locaiton = this.props.location;
 
     return (
       <div className="photo-entry-block">
         <a href={path}>
           <img className="photo-img" src={path} alt={path} />
         </a>
-
-        <h3>this.props.name</h3>
-        <h4>this.props.location</h4>
+        <h3>{photo_name}</h3>
+        <h3>{photo_locaiton}</h3>
       </div>
     );
   }

@@ -1,14 +1,11 @@
 import React from "react";
 import "./img.css";
+import banner from "../images/banner.jpg";
 
 function BannerImage() {
   return (
     <div>
-      <img
-        className="banner"
-        src={require("../images/banner.jpg")}
-        alt="text"
-      />
+      <img className="banner" src={banner} alt="text" />
     </div>
   );
 }

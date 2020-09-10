@@ -1,7 +1,19 @@
 .banner {
-  max-width: 80%;
+  max-width: 160%;
 
-  height: 10em;
+  height: 15em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0.3rem auto;
 }
 
 .photo-entry-block {
